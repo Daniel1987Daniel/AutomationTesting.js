@@ -1,4 +1,4 @@
-it('google test', function() {
+it('github test', function() {
 
   cy.visit('https://github.com')
   cy.get('div.d-flex.flex-justify-between > .d-flex > .js-details-target > .octicon').click()
