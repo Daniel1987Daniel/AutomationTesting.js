@@ -1,3 +1,5 @@
+// CYPRESS TEST
+
 it('github test', function() {
   cy.visit('https://github.com')
   cy.wait(2000)
