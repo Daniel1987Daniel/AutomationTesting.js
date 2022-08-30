@@ -1,5 +1,4 @@
 it('github test', function() {
-
   cy.visit('https://github.com')
   cy.wait(2000)
   cy.get('div.d-flex.flex-justify-between > .d-flex > .js-details-target > .octicon').click()
@@ -19,5 +18,4 @@ it('github test', function() {
   cy.get(':nth-child(1) > .col-10 > .d-inline-block > .wb-break-all > a').click()
   cy.wait(2000)
   cy.get('.css-truncate > .js-navigation-open').click()
-
 })
